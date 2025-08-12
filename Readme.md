@@ -65,3 +65,24 @@ For each algorithm we do these steps:
 **Recall:** 0.9076923076923077
 
 **Accuracy (% correct predictions):** 93.67816091954023 %
+
+## Comparison and analysis of the two algorithms
+
+Based on the evaluation above, both algorithms performed similarly, with a high accuracy.
+
+Random Forest had a slightly higher accuracy and precision than Gradient Boosting. Howerver, RF had less recall than GB. Similarly, Random Forest did a little bit better in the F1 Score than Gradient Boosting.
+
+In conclusion, Random Forest performed better in most of the scores, but it wasn't a big difference from Gradient Boosting, so we could use either one for this problem.
+
+## Limitations of your approach
+
+- 569 rows might not be enough to correctly measure and train the machine learning algorithms
+- Metrics and training might not be the best for current properties like depth, trees, iterations
+- Not clear which algorithm will perfoms better in case we have a huge data set
+
+## Suggestions for future improvements
+
+- Add cross-validation to reduce variance
+- Try different machine learning algorithms and more intense testing for each one
+- Test with a larger dataset
+- Improve tunning for each algorithm
